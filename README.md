@@ -2,11 +2,22 @@
 
 A React library for integration with the Culqi payment processor, compatible with Next.js
 
+## React 19 Compatibility
+
+This library is now fully compatible with **React 19**! The main changes include:
+
+- ✅ Updated to use `React.createContext` instead of `createContext` import
+- ✅ Compatible with React 18+ and React 19
+- ✅ Updated TypeScript types for modern React patterns
+- ✅ Maintains backward compatibility with existing code
+
 ## Installation
 
 ```bash
 npm install react-culqi-next
 ```
+
+**Note**: This library requires React 18.0.0 or higher.
 
 ## Usage
 

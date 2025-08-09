@@ -1,7 +1,7 @@
-import React, { createContext, useState, useEffect, ReactNode } from "react";
+import React, { useState, useEffect, ReactNode } from "react";
 import type { CulqiContextPropsV3 } from "./interfacesv3";
 
-export const CulqiContextV3 = createContext<CulqiContextPropsV3>({
+export const CulqiContextV3 = React.createContext<CulqiContextPropsV3>({
   culqiLoaded: false,
 });
 
@@ -22,7 +22,7 @@ interface CulqiProviderProps {
 export const CulqiProviderV3 = ({
   publicKey,
   children,
-}: CulqiProviderProps): JSX.Element => {
+}: CulqiProviderProps): React.JSX.Element => {
   const [culqiLoaded, setCulqiLoaded] = useState(false);
 
   useEffect(() => {
