@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.4] - 2025-08-09
+
+### Added
+- **Next.js App Router Compatibility**: Added "use client" directive to all React components
+- Full support for Next.js 13+ App Router architecture
+- Server Component compatibility improvements
+
+### Fixed
+- Resolved "createContext only works in Client Components" error
+- Fixed compatibility issues with Next.js App Router
+- All components now properly marked as Client Components
+
+### Technical Details
+- Added `"use client"` directive to:
+  - `src/version4/CulqiContext.tsx`
+  - `src/version3/CulqiContextV3.tsx`
+  - `src/version4/useCheckout.ts`
+  - `src/version3/useCheckoutV3.ts`
+
 ## [0.1.3] - 2025-08-09
 
 ### Added

@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState, useEffect, ReactNode } from "react";
 import type { CulqiContextPropsV3 } from "./interfacesv3";
 

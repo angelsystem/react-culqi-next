@@ -1,3 +1,5 @@
+"use client";
+
 import { useContext, useCallback, useEffect, useState } from "react";
 import { CulqiContextV3, culqiMessages, baseCulqiUrl } from "./CulqiContextV3";
 import type {
